@@ -64,11 +64,14 @@ client.connect(err => {
   }
 
   )  
+  app.get('/', (req, res)=>{
+    res.send('Welcome to Heroku website')
+  })
+
+
   console.log('Database connected successfully');
   //   client.close();
 });
 
 
-app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`)
-})
+app.listen(process.env.PORT || port)
