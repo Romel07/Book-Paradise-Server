@@ -13,8 +13,8 @@ This is server site repo for the Book Paradise Dot Com.
 It a website where I used react for front end , node for backend development and mongodb for server connection.
 
 ## Website Link : 
-https://bookparadise-3428c.web.app/
-https://gentle-everglades-73994.herokuapp.com/   (Heroku for server)
+https://bookparadise-3428c.web.app/ --(for Live Website)--
+https://gentle-everglades-73994.herokuapp.com/   --(Heroku for server)
 
 ## Credits
 Romel
