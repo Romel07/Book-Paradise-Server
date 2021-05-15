@@ -70,6 +70,7 @@ client.connect(err => {
 
 
   console.log('Database connected successfully');
+  
   //   client.close();
 });
 
